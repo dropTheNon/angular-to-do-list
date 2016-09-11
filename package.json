@@ -1,0 +1,24 @@
+{
+  "name": "angular-to-do-list",
+  "version": "1.0.0",
+  "description": "This is a simple to-do list application, built using AngularJS, MongoDB, and NodeJS.  You can create tasks, assign them different colors, cross off completed items, and delete items.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropTheNon/angular-to-do-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dropTheNon/angular-to-do-list/issues"
+  },
+  "homepage": "https://github.com/dropTheNon/angular-to-do-list#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0"
+  }
+}
