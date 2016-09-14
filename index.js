@@ -8,6 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/angular-to-do-list');
 
+// Testing to see if "app is working"
 app.get('/', function(req, res) {
   res.send('App is working!');
 });
